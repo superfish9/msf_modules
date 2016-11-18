@@ -13,7 +13,7 @@ class MetasploitModule < Msf::Auxiliary
     super(update_info(info,
       'Name'        => 'WebLogic SSRF Port Scan',
       'Description' => %q{
-        This module is used to scan ports via ssrf of weblogic.
+        This module is used to scan ports via ssrf of WebLogic.
       },
       'Reference'   =>
         [
