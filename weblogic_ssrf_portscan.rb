@@ -23,8 +23,7 @@ class MetasploitModule < Msf::Auxiliary
         [
           'superfish <sfish9hello[at]gmail.com>' # Metasploit Module
         ],
-      'License'     => MSF_LICENSE,
-      'DisclosureDate' => 'Nov 10 2016'))
+      'License'     => MSF_LICENSE))
 
     register_options(
       [
